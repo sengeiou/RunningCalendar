@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:fitsSystemWindows="true"
+                tools:context="com.everglow.paobu.huanlepao.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+    
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/kuaishan"
+        android:layout_below="@id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_nor_bg"
+            android:gravity="center"
+            android:text="开始跑步"
+            android:textSize="20sp"
+          
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33999999"/>
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/suiji"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@mipmap/b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="设置锻炼计划"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"/>
+
+            <RelativeLayout
+                android:id="@+id/mohuan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@mipmap/b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="查看历史步数"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"/>
+
+        
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33999999"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@mipmap/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="运动记录"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_gesui"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@mipmap/b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="跑步百科"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"/>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/rl_daxie"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@mipmap/b6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="体育资讯"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_huilv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <TextView
+            android:drawableTop="@drawable/ic_rili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:text="运动记录"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <com.everglow.paobu.huanlepao.view.StepArcView
+        android:id="@+id/cc"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+    
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+</RelativeLayout>

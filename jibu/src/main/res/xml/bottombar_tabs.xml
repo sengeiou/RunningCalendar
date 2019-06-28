@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+
+
+    <!--<tab-->
+        <!--id="@+id/tab_home"-->
+        <!--icon="@drawable/ic_dianshang4"-->
+        <!--title="斗图" />-->
+    <!--<tab-->
+        <!--id="@+id/tab_shop"-->
+        <!--icon="@drawable/ic_dianshang7"-->
+        <!--title="表情包" />-->
+    <!--<tab-->
+        <!--id="@+id/tab_discover"-->
+        <!--icon="@drawable/ic_dianshang3"-->
+        <!--title="萌宠" />-->
+
+
+</tabs>
